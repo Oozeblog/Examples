@@ -1,10 +1,12 @@
 ﻿int count = 0;
-int distance = 10000;
 int firstFriendSpeed = 1;
 int secondFriendSpeed = 2;
 int dogSpeed = 5;
 bool friend2 = true;
 int time;
+
+Console.Write("Enter the Distance ");
+int distance = Convert.ToInt32(Console.ReadLine());
 
 while(distance > 10)
 {
